@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin:0 auto;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+    background-color: black;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    width:90%;
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    height:60px;
+    background-color: white;
+}
+.logo{
+    line-height: 60px;
+    font-size: 30px;
+    color:red;
+    font-weight: bold;
+}
+.header-left-message{
+    line-height: 20px;
+    font-size: 10px;
+    margin-left: 5px;
+}
+.header-right a{
+    line-height: 60px;
+    font-size: 12px;
+    background-color: red;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+.top{
+    background-image: url(../img/artem-sapegin-b18TRXc8UPQ-unsplash.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.top-word1{
+    line-height: 40px;
+    padding-top: 80px;
+    font-size: 30px;
+}
+.logo2{
+    padding :40px 0;
+    font-size: 50px;
+    color:red;
+    font-weight: bold;
+}
+.top-word2{
+    padding-bottom: 80px;
+}
