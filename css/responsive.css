@@ -1,8 +1,8 @@
-/* タブレット向けレイアウト */
-@media(max-width:960px) {
+@media(min-width:768px) {
+    .br-pc { display:block; }
+    .br-sp { display:none; }
 }
-
-/* モバイル向けレイアウト */
-@media(max-width:560px){
-
- }
+@media(max-width:767px) {
+    .br-pc { display:none; }
+    .br-sp { display:block; }
+}
