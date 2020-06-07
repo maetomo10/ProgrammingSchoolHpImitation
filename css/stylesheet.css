@@ -49,7 +49,7 @@ header{
 .header-right a{
     line-height: 60px;
     font-size: 12px;
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.6);
     color: white;
     padding: 10px 40px;
     border-radius: 20px;
@@ -105,7 +105,7 @@ header{
 }
 .toiawase a{
     color:white;
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.6);
     padding: 20px 0 ;
     display: inline-block;
     width: 80%;
@@ -113,6 +113,9 @@ header{
 }
 .toiawase{
     padding-bottom: 30px;
+}
+.to-bottom-hover:hover{
+    background-color: rgba(255, 0, 0, 1);
 }
 .ww{
     color: white;
@@ -128,10 +131,19 @@ header{
     border-radius: 3px;
 }
 .tweet{
-    background-color: lightseagreen;
+    background-color: rgba(0, 183, 255, 0.6);
+}
+.tweet:hover{
+    background-color: rgba(0, 183, 255, 1);
 }
 .good,.share{
-    background-color: blue;
+    background-color: rgba(35, 39, 243, 0.6);
+}
+.good:hover{
+    background-color: rgba(35, 39, 243, 1); 
+}
+.share:hover{
+    background-color: rgba(35, 39, 243, 1); 
 }
 .top-3{
     background-image: url(../img/olia-gozha-J4kK8b9Fgj8-unsplash.jpg);
@@ -208,23 +220,59 @@ header{
     padding: 25px 0;
 }
 .container-flex-about{
-    max-width: 800px;
+    max-width: 767px;
     margin: 0 auto;
     width:100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
     flex-wrap: wrap;
 }
 .about-child{
-   width:20%;
-   padding: 5px;
+   width:19%;
+   padding: 1px;
 }
 .about-child-image{
-    width:60px;
-    height: 60px;
+    width:80px;
+    height: 80px;
 }
 .about-child-message{
     padding: 20px 0;
     font-size: 15px;
+}
+.members{
+    background-image: url(../img/anastasia-dulgier-OKOOGO578eo-unsplash.jpg);
+    background-size: cover;
+    padding: 70px 0;
+    color: white;
+    text-align: center;
+}
+.members-flex{
+    padding: 30px 0;
+    max-width: 767px;
+    margin: 0 auto;
+    width:98%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.member{
+    width: 49%;
+}
+.member-face{
+    width:150px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    top:50px;
+}
+.member-box{
+    border: solid 2px white;
+}
+.member-name{
+    padding-top: 100px ;
+}
+.member-message{
+    text-align: left;
+    padding: 30px 10px;
 }
