@@ -1,0 +1,555 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+p,a,dd {
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+}
+
+body {
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    background-color: black;
+}
+
+.container-flex {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    height: 60px;
+    background: rgba(255, 255, 255, 0.8);
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+.logo {
+    line-height: 60px;
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+    letter-spacing: 0;
+}
+
+.header-left-message {
+    line-height: 20px;
+    font-size: 10px;
+    margin-left: 5px;
+    letter-spacing: 0;
+}
+
+.header-right a {
+    line-height: 60px;
+    font-size: 12px;
+    background-color: rgba(255, 0, 0, 0.6);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+.header-right-sp {
+    display: none;
+    text-align: center;
+    position: relative;
+    top:10px
+}
+.header-right-sp a{
+    font-size: 15px;
+    display: inline-block;
+    background-color: rgba(255, 0, 0, 0.6);
+    color: white;
+    padding: 10px 0;
+}
+
+.header-height {
+    background-color: white;
+    height: 60px;
+}
+.top-button a{
+    display: block;
+    position: fixed;
+    padding: 15px 20px;
+    right: 40px;
+    bottom: 50px;
+    background-color: rgba(117, 117, 117, 0.404);
+    color: black;
+    font-size: 30px;
+  }
+  .top-button a:hover{
+      background-color:rgba(117, 117, 117, 1) ;
+  }
+.top {
+    background-image: url(../img/artem-sapegin-b18TRXc8UPQ-unsplash.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.top-word1 {
+    line-height: 40px;
+    padding-top: 80px;
+    font-size: 30px;
+}
+
+.logo2 {
+    padding: 40px 0;
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+    letter-spacing: 0;
+}
+
+.top-word2 {
+    padding-bottom: 80px;
+}
+
+.top-2 {
+    background-color: orange;
+    background-size: auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 98%;
+}
+
+.top-2-word1 {
+    color: white;
+    line-height: 20px;
+}
+
+.top-2-word2 {
+    background-color: white;
+    color: red;
+    padding: 1px 4px;
+    border-radius: 4px;
+}
+
+.qq {
+    padding: 10px 0 20px 0;
+}
+
+.toiawase a {
+    color: white;
+    background-color: rgba(255, 0, 0, 0.6);
+    padding: 30px 0;
+    display: inline-block;
+    width: 100%;
+    border-radius: 100px;
+}
+
+.toiawase {
+    padding-bottom: 30px;
+}
+
+.to-bottom:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.ww {
+    color: white;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.sns {
+    display: inline-block;
+    margin: 0 3px;
+    color: white;
+    padding: 4px 10px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.tweet {
+    background-color: rgba(0, 183, 255, 0.6);
+}
+
+.tweet:hover {
+    background-color: rgba(0, 183, 255, 1);
+}
+
+.good,
+.share {
+    background-color: rgba(35, 39, 243, 0.6);
+}
+
+.good:hover {
+    background-color: rgba(35, 39, 243, 1);
+}
+
+.share:hover {
+    background-color: rgba(35, 39, 243, 1);
+}
+
+.top-3 {
+    background-image: url(../img/olia-gozha-J4kK8b9Fgj8-unsplash.jpg);
+    background-size: cover;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.midashi {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 40px 0;
+    position: relative;
+    line-height: 40px;
+    text-align: center;
+}
+
+.midashi:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border-top: 4px solid orange;
+    border-left: 4px solid orange;
+}
+
+.midashi:after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    border-bottom: 4px solid orange;
+    border-right: 4px solid orange;
+}
+
+.top-3-word1 {
+    padding: 50px 0 100px 0;
+    line-height: 30px;
+}
+
+.top-3-word1 span {
+    border-bottom: solid 8px orange;
+}
+
+.about {
+    background-color: #ffddc4;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.about-circle {
+    position: relative;
+    top: -50px;
+}
+
+.about-circle a {
+    text-align: center;
+    display: inline-block;
+    background-color: orange;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+}
+
+.tt {
+    padding: 50px 0;
+}
+
+.container-about {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 98%;
+    border: solid 2px orange;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.yy {
+    padding: 25px 0;
+}
+
+.container-flex-about {
+    max-width: 767px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.about-child {
+    width: 19%;
+    padding: 1px;
+}
+
+.about-child-image {
+    width: 80px;
+    height: 80px;
+}
+
+.about-child-message {
+    padding: 20px 0;
+    font-size: 15px;
+}
+
+.members {
+    background-image: url(../img/anastasia-dulgier-OKOOGO578eo-unsplash.jpg);
+    background-size: cover;
+    padding: 70px 0;
+    color: white;
+    text-align: center;
+}
+.nn{
+    font-size: 30px;
+    font-weight: bold;
+}
+.members-flex {
+    padding: 30px 0;
+    max-width: 767px;
+    margin: 0 auto;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.member {
+    width: 48%;
+}
+
+.member-face {
+    width: 150px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    top: 50px;
+}
+
+.member-box {
+    border: solid 2px white;
+}
+
+.member-name {
+    padding-top: 100px;
+}
+
+.member-message {
+    text-align: left;
+    padding: 30px 10px;
+}
+
+.teacher-top {
+    background-color: orange;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.teacher-circle a {
+    display: inline-block;
+    background-color: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+}
+
+.midashi-teacher {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 40px 0;
+    position: relative;
+    line-height: 40px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.midashi-teacher:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border-top: 4px solid white;
+    border-left: 4px solid white;
+}
+
+.midashi-teacher:after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+}
+
+.triangle-wrap {
+    background-color: white;
+}
+
+.triangle {
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 30px solid orange;
+}
+
+.teachers {
+    background-color: white;
+    padding: 50px 0 100px 0;
+}
+
+.grid-container {
+    display: grid;
+    max-width: 767px;
+    margin: 0 auto;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 60px 40px;
+    grid-template-areas: "face-1 message-1 message-1 message-1" "message-2 message-2 message-2 face-2" "face-3 message-3 message-3 message-3";
+}
+
+.message-1 {
+    grid-area: message-1;
+}
+
+.face-1 {
+    grid-area: face-1;
+}
+
+.message-2 {
+    grid-area: message-2;
+}
+
+.face-2 {
+    grid-area: face-2;
+}
+
+.face-3 {
+    grid-area: face-3;
+}
+
+.message-3 {
+    grid-area: message-3;
+}
+
+.teacher-face img {
+    height: 150px;
+    width: 150px;
+    background-color: gray;
+    border: 3px solid orange;
+}
+.form-wrapper{
+    background-color: orange;
+    text-align: center;
+    padding: 50px 0;
+}
+.ll{
+    padding: 50px 0;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.form-text{
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: none;
+}
+.form-textarea{
+    font-size: 25px;
+    width: 100%;
+    height: 150px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: none;
+}
+.submit{
+
+    font-size: 20px;
+    display: inline-block;
+    width: 100%;
+    border-radius: 100px;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.6);
+    padding: 20px 10px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 40px;
+}
+.submit:hover{
+    background-color: rgba(255, 0, 0, 1);
+}
+.question-wrapper{
+    background-color: white;
+    padding-bottom: 70px;
+}
+.question{
+    display:inline-block;
+    font-weight: bold;
+    width:100%;
+    padding: 20px 10px;
+    border:gray 1px solid;
+    cursor:pointer;
+    margin-top: 10px;
+    position: relative;
+}
+.question:after {
+    content: "";
+    position: absolute;
+    border-right: 4px solid rgb(163, 153, 153);
+    border-bottom: 4px solid rgb(163, 153, 153);
+    width: 13px;
+    top:15px;
+    right: 20px;
+    height: 13px;
+    transform: rotate(45deg);
+ }
+ .question.ac:after {
+    content: "";
+    position: absolute;
+    border-left: 4px solid rgb(163, 153, 153);
+    border-top: 4px solid rgb(163, 153, 153);
+    border-right: 0;
+    border-bottom: 0;
+    width: 13px;
+    top:25px;
+    right: 20px;
+    height: 13px;
+    transform: rotate(45deg);
+ }
+#acordion dd{
+    padding-left: 10px;
+    display:none;
+}
+footer {
+    background-color:rgba(117, 117, 117, 1) ;
+    padding: 20px 0;
+    text-align: center;
+}
+footer p{
+    font-size: 5px;
+}
+.footer-sns{
+    margin: 10px 0;
+}
