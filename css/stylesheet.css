@@ -62,12 +62,15 @@ header {
 .top-button a{
     display: block;
     position: fixed;
-    padding: 20px;
+    padding: 15px 20px;
     right: 40px;
     bottom: 50px;
     background-color: rgba(117, 117, 117, 0.404);
     color: black;
     font-size: 30px;
+  }
+  .top-button a:hover{
+      background-color:rgba(117, 117, 117, 1) ;
   }
 .top {
     background-image: url(../img/artem-sapegin-b18TRXc8UPQ-unsplash.jpg);
@@ -509,8 +512,6 @@ header {
     height: 13px;
     transform: rotate(45deg);
  }
- 
- 
  .question.ac:after {
     content: "";
     position: absolute;
@@ -524,9 +525,18 @@ header {
     height: 13px;
     transform: rotate(45deg);
  }
- 
-
 #acordion dd{
     padding-left: 10px;
     display:none;
+}
+footer {
+    background-color:rgba(117, 117, 117, 1) ;
+    padding: 20px 0;
+    text-align: center;
+}
+footer p{
+    font-size: 5px;
+}
+.footer-sns{
+    margin: 10px 0;
 }
