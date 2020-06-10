@@ -5,4 +5,48 @@
 @media(max-width:767px) {
     .br-pc { display:none; }
     .br-sp { display:block; }
+    p,a,dd {
+        font-size: 18px;
+        letter-spacing: 1.5px;
+    }
+    .header-right{
+        display: none;
+    }
+    .header-right-sp {
+        display: block;
+    }
+    .logo{
+        font-size: 25px;
+    }
+    .top-word1{
+        font-size:25px ;
+    }
+    .logo2{
+        font-size: 40px;
+    }
+    .header-left-message{
+        display: none;
+    }
+    .about-child{
+        width: 31%;
+    }
+    .member{
+        width: 100%;
+    }
+    .teacher-face img{
+        height: 90px;
+        width: 90px;
+    }
+    .form-text,.form-textarea{
+        font-size: 18px;
+    }
+    .submit{
+        font-size: 15px;
+        letter-spacing: 20px;
+    }
+    .top-button a{
+        font-size: 20px;
+        padding: 10px 15px;
+        right: 15px;
+    }
 }
